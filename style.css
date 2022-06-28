@@ -1,1 +1,53 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: gray;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav{
+  margin: 0;
+  padding: 20px 0;
+}
+.exp-header,.edu-header{
+  text-align: center;
+}
+
+main{
+  background-color: orange;
+  color: blue;
+  font-family: "sans-serif", arial, sans;
+  
+}
+nav li {
+  color: ;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  width: 160px;
+}
+.violin{
+  height: 800px;
+  background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/220428191400-02-violin-auction-france.jpg");
+  background-size: cover;
+}
+h1{
+  color:#fff;
+  position: relative;
+  top:50%;
+  left: 15%;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+h2{
+  color: #fff;
+  position: relative;
+  top: 51%;
+  left: 20%;
+}
 
