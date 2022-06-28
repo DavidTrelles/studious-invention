@@ -8,38 +8,44 @@ header{
   width: 100%;
   z-index: 1;
 }
-
+#education{
+  background-color: black;
+  color:#fff
+}
 .nav{
-  margin: 0;
-  padding: 20px 0;
+  margin: 40px;
+  padding:4px;
 }
-.exp-header,.edu-header{
+.exp-header,.edu-header,.media-header{
   text-align: center;
+  font-size: 24px
 }
 
-main{
-  background-color: orange;
-  color: blue;
+#experience{
   font-family: "sans-serif", arial, sans;
-  
+  position: relative;
+  top: 60 px;
+  margin: 10% 15%;
 }
+
 nav li {
   color: ;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 12px;
   display: inline-block;
-  width: 160px;
+  width: 100px;
 }
 .violin{
   height: 800px;
+  width: 100%;
   background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/220428191400-02-violin-auction-france.jpg");
   background-size: cover;
 }
 h1{
   color:#fff;
   position: relative;
-  top:50%;
+  top:25%;
   left: 15%;
   font-size: 60px;
   text-transform: uppercase;
@@ -47,7 +53,9 @@ h1{
 h2{
   color: #fff;
   position: relative;
-  top: 51%;
+  top: 26%;
   left: 20%;
 }
-
+.video{
+  text-align: center
+}
